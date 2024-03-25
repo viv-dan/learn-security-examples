@@ -1,1 +1,3 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+Confidentiality is violtaed in the insecure version. The secure version prevents this by implementing cross site verification and making the cookie not programatelically accessible by some other domains.

@@ -1,0 +1,3 @@
+The secure.js sanitises the input that checks if the user has sent any malicious html code that may harm the server. The insecure.js doesnt have this and allows all the inputs.
+
+I have to say that it violates integrity of data here in this case.
