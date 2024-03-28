@@ -1,2 +1,6 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+The vulnerability here is that we are not limiting the number of requests from a particualr entity and thus allowing dos attacks that keep the server busy from serving another entity requests.
+
+We can incorpoarate rate-limit packages from npm so that it can limit number of requests from a particular entity

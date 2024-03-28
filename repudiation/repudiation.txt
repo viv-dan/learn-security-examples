@@ -1,2 +1,7 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+no way of tracking the source for incoming requests. Logging is not properly done. Log messages can also be modified when clients send requests.
+
+We should add strong access policies to the log files so that they wont be tampered.
+

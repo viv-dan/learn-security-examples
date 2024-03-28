@@ -1,0 +1,3 @@
+The secure version uses sessions in order to maintain context of the user and only update user roles when the user has that additional roles.
+
+We can employ try catch blocks along with sessions. We can also try a encrypted token with strong encryption mechanism. we can use that as Json web token
